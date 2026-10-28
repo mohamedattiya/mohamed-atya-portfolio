@@ -2,367 +2,410 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Web Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Mohamed Atya's developer portfolio. Explore software development, programming, and modern web solutions.">
+
+    <meta name="theme-color" content="#080f1e">
+    <title>Mohamed Atya | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <a href="#" class="logo">M<span>A.</span></a>
 
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <!-- Navigation -->
+    <header class="site-header">
+        <a href="#home" class="logo" aria-label="Mohamed Atya home">
+            M<span>A.</span>
+        </a>
 
-  <main>
-    
-<section id="home" class="hero">
-  <div class="hero-content">
-    <p class="tag">
-      <span class="status-dot"></span>
-      COMPUTER SCIENCE STUDENT
-    </p>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="projects.html" class="nav-link">Projects</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#contact-form" class="nav-cta">Let's Talk <span>↗</span></a>
+        </nav>
+    </header>
 
-    <h1>
-      Building ideas<br>
-      into <span class="gradient-text">digital reality.</span>
-    </h1>
+    <main>
 
-    <p class="intro">
-      I'm Mohamed Atya. And this changes everything
-    </p>
+        <!-- Hero -->
+        <section id="home" class="hero">
+            <div class="hero-content">
 
-    <div class="hero-actions">
-      <a href="#projects" class="btn">Explore my work ↗</a>
-      <a href="#about" class="text-link">More about me ↓</a>
-    </div>
+                <div class="hero-eyebrow">
+                    <span class="status-dot"></span>
+                    SOFTWARE DEVELOPMENT & DIGITAL SOLUTIONS
+                </div>
 
-    <div class="hero-stats">
-      <div>
-        <strong>CS</strong>
-        <span>Student</span>
-      </div>
-      <div>
-        <strong>Java</strong>
-        <span>Programming</span>
-      </div>
-      <div>
-        <strong>∞</strong>
-        <span>Ideas to build</span>
-      </div>
-    </div>
-  </div>
+                <h1>
+                    Turning Ideas Into
+                    <span class="gradient-text">Digital Reality.</span>
+                </h1>
 
-  <div class="hero-visual">
-    <div class="orbit orbit-one"></div>
-    <div class="orbit orbit-two"></div>
+                <p class="hero-description">
+                    I'm Mohamed Atya. I build practical software solutions
+                    and modern web experiences with a focus on clear
+                    functionality, thoughtful design, and solving real problems.
+                </p>
 
-    <div class="code-window">
-      <div class="window-bar">
-        <div class="window-dots">
-          <span></span><span></span><span></span>
-        </div>
-        <span class="window-title">developer.java</span>
-      </div>
+                <div class="hero-actions">
+                    <a href="#contact-form" class="button button-primary">
+                        Let's Work Together <span>↗</span>
+                    </a>
 
-      <div class="code-content">
-        <p class="code-muted">// A little about me</p>
-        <p><span class="code-purple">class</span> Developer {</p>
-        <p class="indent">
-          <span class="code-purple">String</span> name =
-        </p>
-        <p class="indent code-green">"Mohamed Atya";</p>
-        <p class="indent">
-          <span class="code-purple">String</span> focus =
-        </p>
-        <p class="indent code-green">"Building projects";</p>
-        <p class="indent">
-          <span class="code-purple">boolean</span> learning =
-          <span class="code-orange">true</span>;
-        </p>
-        <p>}</p>
-        <div class="terminal-line">
-          <span class="status-dot"></span>
-          <span>Ready to build something new</span>
-        </div>
-      </div>
-    </div>
+                    <a href="projects.html" class="button button-secondary">
+                        Explore My Work <span>→</span>
+                    </a>
+                </div>
 
-    <div class="floating-badge badge-top">{"</>"} Clean code</div>
-    <div class="floating-badge badge-bottom">✦ Always learning</div>
-  </div>
-</section>
+                <div class="hero-highlights">
+                    <div class="highlight">
+                        <span class="highlight-icon">&lt;/&gt;</span>
+                        <div>
+                            <strong>Software</strong>
+                            <span>Development</span>
+                        </div>
+                    </div>
 
-    
-<section id="about" class="section about-section">
-  <div class="section-heading">
-    <p class="section-label">GET TO KNOW ME</p>
-    <h2>About <span class="gradient-text">Me</span></h2>
-    <p class="section-subtitle">
-      A little about my journey, my mindset, and what I'm building.
-    </p>
-  </div>
+                    <div class="highlight-divider"></div>
 
-  <div class="about-grid">
-    <div class="about-card about-main">
-      <div class="about-icon">&lt;/&gt;</div>
-      <h3>Turning curiosity into code.</h3>
-      <p>
-        I'm Mohamed Atya, a third-year Computer Science student
-        interested in programming, problem-solving, and building
-        useful digital projects.
-      </p>
-      <p>
-        I'm focused on strengthening my foundations, learning
-        through practice, and turning what I learn into projects
-        that demonstrate my abilities.
-      </p>
-      <div class="about-tags">
-        <span>Curious</span>
-        <span>Problem solver</span>
-        <span>Always learning</span>
-      </div>
-    </div>
+                    <div class="highlight">
+                        <span class="highlight-icon">⌘</span>
+                        <div>
+                            <strong>Logical</strong>
+                            <span>Problem-Solving</span>
+                        </div>
+                    </div>
 
-    <div class="about-details">
-      <div class="detail-card">
-        <span class="detail-number">01</span>
-        <div>
-          <h3>My foundation</h3>
-          <p>Computer Science and programming fundamentals.</p>
-        </div>
-      </div>
+                    <div class="highlight-divider"></div>
 
-      <div class="detail-card">
-        <span class="detail-number">02</span>
-        <div>
-          <h3>My approach</h3>
-          <p>Learn concepts, practice consistently, build projects.</p>
-        </div>
-      </div>
+                    <div class="highlight">
+                        <span class="highlight-icon">◇</span>
+                        <div>
+                            <strong>Modern</strong>
+                            <span>Web Experiences</span>
+                        </div>
+                    </div>
+                </div>
 
-      <div class="detail-card">
-        <span class="detail-number">03</span>
-        <div>
-          <h3>My direction</h3>
-          <p>Grow as a developer and work toward freelance opportunities.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+            </div>
 
-<section id="skills" class="section skills-section">
-  <div class="section-heading">
-    <p class="section-label">WHAT I'M LEARNING</p>
-    <h2><span class="gradient-text">Skills</span></h2>
-    <p class="section-subtitle">
-      The tools and concepts I'm developing through study and practice.
-    </p>
-  </div>
+            <!-- Animated code illustration -->
+            <div class="hero-visual" aria-label="Decorative code illustration">
+                <div class="glow glow-one"></div>
+                <div class="glow glow-two"></div>
 
-  <div class="skills-grid">
-    
-<div class="skills-grid">
-  <article class="skill-card">
-    <div class="skill-top">
-      <span class="skill-icon java-icon">J</span>
-      <span class="skill-status">Learning</span>
-    </div>
-    <h3>Java</h3>
-    <p>Programming fundamentals and object-oriented concepts.</p>
-    <div class="skill-tags"><span>OOP</span><span>Syntax</span></div>
-  </article>
+                <div class="code-window">
+                    <div class="code-window-header">
+                        <div class="window-dots" aria-hidden="true">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
 
-  <article class="skill-card">
-    <div class="skill-top">
-      <span class="skill-icon web-icon">&lt;/&gt;</span>
-      <span class="skill-status">Learning</span>
-    </div>
-    <h3>HTML &amp; CSS</h3>
-    <p>Creating website layouts, styling interfaces, and responsive pages.</p>
-    <div class="skill-tags"><span>HTML</span><span>CSS</span></div>
-  </article>
+                        <span class="window-title">developer.java</span>
+                        <span class="window-status">●</span>
+                    </div>
 
-  <article class="skill-card">
-    <div class="skill-top">
-      <span class="skill-icon algo-icon">⌘</span>
-      <span class="skill-status">Studying</span>
-    </div>
-    <h3>Data Structures &amp; Algorithms</h3>
-    <p>Learning how to organize data and solve programming problems.</p>
-    <div class="skill-tags"><span>Logic</span><span>Problem solving</span></div>
-  </article>
+                    <div class="code-content">
+                        <p class="code-comment">// Turning ideas into solutions</p>
 
-  <article class="skill-card">
-    <div class="skill-top">
-      <span class="skill-icon learn-icon">↗</span>
-      <span class="skill-status">Practicing</span>
-    </div>
-    <h3>Web Development</h3>
-    <p>Building this portfolio and learning how websites fit together.</p>
-    <div class="skill-tags"><span>Projects</span><span>Practice</span></div>
-  </article>
+                        <p>
+                            <span class="code-purple">class</span>
+                            <span class="code-blue">Developer</span> {
+                        </p>
 
-  <article class="skill-card">
-    <div class="skill-top">
-      <span class="skill-icon web-icon">DB</span>
-      <span class="skill-status">Learning</span>
-    </div>
-    <h3>Database Management</h3>
-    <p>Learning to organize, store, manage, and retrieve data efficiently.</p>
-    <div class="skill-tags"><span>Database Design</span><span>Data Modeling</span></div>
-  </article>
+                        <p class="code-indent">
+                            <span class="code-purple">String</span> name =
+                        </p>
+                        <p class="code-indent code-green">"Mohamed Atya";</p>
 
-  
+                        <p class="code-indent">
+                            <span class="code-purple">String</span> mindset =
+                        </p>
+                        <p class="code-indent code-green">"Think. Build. Improve.";</p>
 
-  <article class="skill-card">
-    <div class="skill-top">
-      <span class="skill-icon learn-icon">SA</span>
-      <span class="skill-status">Studying</span>
-    </div>
-    <h3>System Analysis</h3>
-    <p>Learning to analyze requirements, business processes, and system behavior.</p>
-    <div class="skill-tags"><span>Requirements</span><span>UML</span></div>
-  </article>
-</div>
-  
-</section>
+                        <p class="code-indent">
+                            <span class="code-purple">boolean</span> createSolutions =
+                            <span class="code-orange">true</span>;
+                        </p>
 
+                        <p>}</p>
 
+                        <div class="terminal-line">
+                            <span class="status-dot"></span>
+                            <span>Ready to build something meaningful</span>
+                            <span class="cursor">_</span>
+                        </div>
+                    </div>
+                </div>
 
-    
-<section id="projects" class="section projects-section">
-  <div class="section-heading">
-    <p class="section-label">MY WORK</p>
-    <h2>Featured <span class="gradient-text">Projects</span></h2>
-    <p class="section-subtitle">
-      A collection of projects and skills I'm developing through practice.
-    </p>
-  </div>
+                <div class="floating-card floating-card-top">
+                    <span class="floating-icon">&lt;/&gt;</span>
+                    <span>Clean Code</span>
+                </div>
 
-  <div class="projects-grid">
+                <div class="floating-card floating-card-bottom">
+                    <span class="floating-icon">✦</span>
+                    <span>Built With Purpose</span>
+                </div>
+            </div>
+        </section>
 
-    <!-- Project 1 -->
-    <article class="project-card">
-      <div class="project-top">
-        <span class="project-icon java-project-icon">J</span>
-        <span class="project-type">JAVA</span>
+        <!-- Services -->
+        <section id="services" class="services-section">
+            <div class="section-heading">
+                <span class="section-label">WHAT I CAN DO</span>
 
-      </div>
+                <h2>
+                    Practical Skills.
+                    <span class="gradient-text">Real Solutions.</span>
+                </h2>
 
-      <h3>Java Programming Practice</h3>
+                <p>
+                    An analytical approach to development, from understanding
+                    the problem to building a useful digital solution.
+                </p>
+            </div>
 
-      <p class="project-description">
-        Practicing Java fundamentals, writing clean code,
-        and building a strong programming foundation.
-      </p>
+            <div class="services-grid">
 
-      <div class="project-tags">
-        <span>Java</span>
-        <span>OOP Concepts</span>
-        <span>Problem Solving</span>
-      </div>
-    </article>
+                <article class="service-card">
+                    <div class="service-icon">&lt;/&gt;</div>
+                    <span class="service-number">01 / WEB</span>
 
-    <!-- Project 2 -->
-    <article class="project-card">
-      <div class="project-top">
-        <span class="project-icon algorithm-project-icon">&lt;/&gt;</span>
-        <span class="project-type">COMPUTER SCIENCE</span>
-      </div>
+                    <h3>Web Development</h3>
 
-      <h3>Data Structures &amp; Algorithms</h3>
+                    <p>
+                        Responsive, modern website interfaces that present
+                        your business clearly and help visitors navigate
+                        your content with ease.
+                    </p>
 
-      <p class="project-description">
-        Exploring data organization and algorithmic thinking
-        to understand how programming solutions work.
-      </p>
+                    <a href="#contact-form" class="service-link">
+                        Discuss a website <span>↗</span>
+                    </a>
+                </article>
 
-      <div class="project-tags">
-        <span>Java</span>
-        <span>Algorithms</span>
-        <span>Logic</span>
-      </div>
-    </article>
+                <article class="service-card">
+                    <div class="service-icon">⌘</div>
+                    <span class="service-number">02 / SOFTWARE</span>
 
-    <!-- Project 3 -->
-    <article class="project-card">
-      <div class="project-top">
-        <span class="project-icon web-project-icon">↗</span>
-        <span class="project-type">WEB DEVELOPMENT</span>
-      </div>
+                    <h3>Programming Solutions</h3>
 
-      <h3>Developer Portfolio</h3>
+                    <p>
+                        Structured programming and application logic designed
+                        around defined requirements, useful functionality,
+                        and maintainable code.
+                    </p>
 
-      <p class="project-description">
-        Designing a personal portfolio to present my skills,
-        introduce myself, and showcase my development journey.
-      </p>
+                    <a href="#contact-form" class="service-link">
+                        Discuss an idea <span>↗</span>
+                    </a>
+                </article>
 
-      <div class="project-tags">
-        <span>HTML5</span>
-        <span>CSS3</span>
-        <span>Responsive Design</span>
-      </div>
-    </article>
+                <article class="service-card">
+                    <div class="service-icon">◇</div>
+                    <span class="service-number">03 / ANALYSIS</span>
 
-<!-- Project 4: Personal Finance Tracker -->
+                    <h3>Technical Problem-Solving</h3>
 
-<article class="project-card">
-  <div class="project-top">
-    <span class="project-icon java-project-icon">$</span>
-    <span class="project-type">DESKTOP APPLICATION</span>
-  </div>
+                    <p>
+                        Breaking complex requirements into manageable steps,
+                        organizing data, and applying logical thinking to
+                        practical development challenges.
+                    </p>
 
-  <h3>Personal Finance Tracker</h3>
+                    <a href="#contact-form" class="service-link">
+                        Let's talk <span>↗</span>
+                    </a>
+                </article>
 
-  <p class="project-description">
-    A JavaFX desktop application for tracking income,
-    expenses, balances, and financial trends with SQLite
-    database storage and interactive charts.
-  </p>
+            </div>
+        </section>
 
-  <div class="project-tags">
-    <span>Java</span>
-    <span>JavaFX</span>
-    <span>SQLite</span>
-    <span>Maven</span>
-  </div>
+        <!-- About preview -->
+        <section class="about-preview">
+            <div class="about-preview-decoration" aria-hidden="true">MA.</div>
 
-  <a
-    class="btn"
-    href="https://github.com/mohamedattiya/Personal-finance-tracker"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    View on GitHub ↗
-  </a>
-</article>
+            <div class="about-preview-content">
+                <span class="section-label">A LITTLE ABOUT ME</span>
 
-  </div>
-</section>
+                <h2>
+                    Good Development Starts With
+                    <span class="gradient-text">Understanding the Problem.</span>
+                </h2>
 
+                <p>
+                    I value structured thinking, purposeful design, and
+                    building solutions that serve a clear goal. My technical
+                    interests include Java, object-oriented programming,
+                    databases, system analysis, and web development.
+                </p>
 
-    <section id="contact" class="section">
-      <h2>Let's Connect</h2>
-      <p>Interested in working together? Get in touch.</p>
-      <a class="btn" href="mailto:mmatya426@gmail.com">
-        Email Me
-      </a>
-    </section>
-  </main>
+                <a href="about.html" class="text-link">
+                    More About Me <span>↗</span>
+                </a>
+            </div>
 
-  <footer>
-    <p>© 2026 My Developer Portfolio</p>
-  </footer>
+            <div class="about-preview-mark">
+                <div class="mark-ring ring-one"></div>
+                <div class="mark-ring ring-two"></div>
+                <div class="mark-center">MA<span>.</span></div>
+            </div>
+        </section>
 
-  <script src="script.js"></script>
+        <!-- Contact -->
+        <section id="contact-form" class="contact-section">
+            <div class="contact-heading">
+                <span class="section-label">LET'S CONNECT</span>
+
+                <h2>
+                    Have an Idea?
+                    <span class="gradient-text">Let's Build It.</span>
+                </h2>
+
+                <p>
+                    Tell me what you're working on. Share your idea,
+                    your requirements, or the challenge you want to solve.
+                    Let's start a conversation.
+                </p>
+            </div>
+
+            <div class="contact-layout">
+
+                <div class="contact-info">
+                    <div class="contact-info-icon">↗</div>
+
+                    <h3>Let's talk about your project.</h3>
+
+                    <p>
+                        Use the form to share some details, and I'll have
+                        the information needed to understand your inquiry.
+                    </p>
+
+                    <div class="contact-detail">
+                        <span class="contact-detail-label">EMAIL</span>
+                        <a href="mailto:mmatya426@gmail.com">
+                            mmatya426@gmail.com
+                        </a>
+                    </div>
+
+                    <div class="contact-detail">
+                        <span class="contact-detail-label">FOCUS</span>
+                        <span>Software & Web Development</span>
+                    </div>
+                </div>
+
+                <div class="contact-form-card">
+                    <form
+                        action="https://formsubmit.co/mmatya426@gmail.com"
+                        method="POST"
+                    >
+                        <input
+                            type="hidden"
+                            name="_subject"
+                            value="New Portfolio Inquiry"
+                        >
+
+                        <input
+                            type="hidden"
+                            name="_template"
+                            value="table"
+                        >
+
+                        <input
+                            type="hidden"
+                            name="_captcha"
+                            value="true"
+                        >
+
+                        <!-- Honeypot spam protection -->
+                        <input
+                            type="text"
+                            name="_honey"
+                            class="honeypot"
+                            tabindex="-1"
+                            autocomplete="off"
+                            aria-hidden="true"
+                        >
+
+                        <div class="form-field">
+                            <label for="full-name">Full Name</label>
+                            <input
+                                id="full-name"
+                                type="text"
+                                name="name"
+                                placeholder="Enter your full name"
+                                autocomplete="name"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-field">
+                            <label for="email">Email Address</label>
+                            <input
+                                id="email"
+                                type="email"
+                                name="email"
+                                placeholder="you@example.com"
+                                autocomplete="email"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-field">
+                            <label for="project-type">What do you need?</label>
+                            <select id="project-type" name="Project Type" required>
+                                <option value="" disabled selected>
+                                    Select a project type
+                                </option>
+                                <option value="Website">Website Development</option>
+                                <option value="Programming">Programming Solution</option>
+                                <option value="Consultation">Discuss an Idea</option>
+                                <option value="Other">Something Else</option>
+                            </select>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="message">Your Message</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="5"
+                                placeholder="Tell me about your idea or project..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="button button-primary submit-button">
+                            Send Project Inquiry <span>↗</span>
+                        </button>
+
+                        <p class="form-note">
+                            Your message will be sent by email through FormSubmit.
+                        </p>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <a href="#home" class="footer-logo">M<span>A.</span></a>
+
+        <p>© 2026 Mohamed Atya. All rights reserved.</p>
+
+        <a href="#home" class="back-to-top">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
